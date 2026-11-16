@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 660" font-family="Helvetica Neue, Arial, sans-serif">
+  <rect width="1180" height="660" fill="#0a0a0a"/>
+  <text x="40" y="52" fill="#ffffff" font-size="26" font-weight="bold">Kit icone HMI · primo studio</text>
+  <text x="40" y="76" fill="#9a9a9a" font-size="13">Griglia 48px · tratto 2.5px · angoli arrotondati · palette deck: bianco, arancione #FF5E00, verde #3DDC84, ambra #FFB020, rosso #FF3B3B</text>
+
+  <text x="40" y="122" fill="#ff5e00" font-size="14" font-weight="bold" letter-spacing="2">MODALITÀ E CONTROLLO</text>
+  <text x="40" y="140" fill="#6a6a6a" font-size="11">R1 · chi ha il controllo</text>
+
+  <g transform="translate(60,160)">
+    <rect width="100" height="120" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <circle cx="50" cy="44" r="22" fill="none" stroke="#ff5e00" stroke-width="2.5"/>
+    <circle cx="50" cy="44" r="22" fill="none" stroke="#ff5e00" stroke-opacity="0.25" stroke-width="8"/>
+    <path d="M50 36 v8 M50 52 v8 M42 44 h8 M58 44 h8" stroke="#ff5e00" stroke-width="2.5" stroke-linecap="round" transform="rotate(45 50 44)"/>
+    <text x="50" y="92" fill="#ffffff" font-size="11" text-anchor="middle">AUTO</text>
+    <text x="50" y="106" fill="#9a9a9a" font-size="9" text-anchor="middle">GoA2 attivo</text>
+  </g>
+  <g transform="translate(180,160)">
+    <rect width="100" height="120" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <circle cx="50" cy="44" r="22" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+    <path d="M50 30 c-7 4-12 9-12 15 v9 h24 v-9 c0-6-5-11-12-15z" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="50" y="92" fill="#ffffff" font-size="11" text-anchor="middle">MANUALE</text>
+    <text x="50" y="106" fill="#9a9a9a" font-size="9" text-anchor="middle">conducente</text>
+  </g>
+  <g transform="translate(300,160)">
+    <rect width="100" height="120" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <path d="M22 40 h34 M44 30 l10 10 -10 10" fill="none" stroke="#ff5e00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="66" cy="60" r="10" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+    <path d="M66 55 c-3 2-5 4-5 7 v4 h10 v-4 c0-3-2-5-5-7z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+    <text x="50" y="92" fill="#ffffff" font-size="11" text-anchor="middle">HAND-OVER</text>
+    <text x="50" y="106" fill="#9a9a9a" font-size="9" text-anchor="middle">passaggio</text>
+  </g>
+  <g transform="translate(420,160)">
+    <rect width="100" height="120" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <circle cx="50" cy="46" r="9" fill="none" stroke="#3ddc84" stroke-width="2.5"/>
+    <path d="M30 46 a20 20 0 0 1 40 0 M24 46 a26 26 0 0 1 52 0" fill="none" stroke="#3ddc84" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="50" y="92" fill="#ffffff" font-size="11" text-anchor="middle">SENSORE</text>
+    <text x="50" y="106" fill="#9a9a9a" font-size="9" text-anchor="middle">radar / LiDAR</text>
+  </g>
+  <g transform="translate(540,160)">
+    <rect width="100" height="120" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <circle cx="50" cy="46" r="9" fill="none" stroke="#ffb020" stroke-width="2.5"/>
+    <path d="M30 46 a20 20 0 0 1 40 0 M24 46 a26 26 0 0 1 52 0" fill="none" stroke="#ffb020" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M40 64 l-10 16 M60 64 l10 16 M50 66 l-6 12 M50 66 l6 12" stroke="#ffb020" stroke-width="2" stroke-linecap="round"/>
+    <text x="50" y="92" fill="#ffffff" font-size="11" text-anchor="middle">DEGRADATO</text>
+    <text x="50" y="106" fill="#9a9a9a" font-size="9" text-anchor="middle">R5 · limiti dichiarati</text>
+  </g>
+
+  <text x="40" y="322" fill="#ff5e00" font-size="14" font-weight="bold" letter-spacing="2">GERARCHIA DEGLI AVVISI</text>
+  <text x="40" y="340" fill="#6a6a6a" font-size="11">R3 · informazione, rischio, pericolo imminente</text>
+
+  <g transform="translate(60,360)">
+    <rect width="100" height="120" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <circle cx="50" cy="44" r="22" fill="none" stroke="#3ddc84" stroke-width="2.5"/>
+    <path d="M40 44 h20 M50 34 v20" stroke="#3ddc84" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="50" y="92" fill="#ffffff" font-size="11" text-anchor="middle">INFO</text>
+    <text x="50" y="106" fill="#9a9a9a" font-size="9" text-anchor="middle">routine</text>
+  </g>
+  <g transform="translate(180,360)">
+    <rect width="100" height="120" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <circle cx="50" cy="44" r="22" fill="none" stroke="#ffb020" stroke-width="2.5"/>
+    <path d="M40 50 h20 M50 34 v9" stroke="#ffb020" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="50" y="92" fill="#ffffff" font-size="11" text-anchor="middle">RISCHIO</text>
+    <text x="50" y="106" fill="#9a9a9a" font-size="9" text-anchor="middle">azione suggerita</text>
+  </g>
+  <g transform="translate(300,360)">
+    <rect width="100" height="120" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <path d="M50 22 l26 44 h-52z" fill="none" stroke="#ff3b3b" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M50 36 v14 M50 55 v3" stroke="#ff3b3b" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="50" y="92" fill="#ffffff" font-size="11" text-anchor="middle">PERICOLO</text>
+    <text x="50" y="106" fill="#9a9a9a" font-size="9" text-anchor="middle">azione richiesta</text>
+  </g>
+  <g transform="translate(420,360)">
+    <rect width="100" height="120" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <circle cx="50" cy="44" r="22" fill="none" stroke="#3ddc84" stroke-width="2.5"/>
+    <path d="M39 44 l8 8 15-16" stroke="#3ddc84" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="50" y="92" fill="#ffffff" font-size="11" text-anchor="middle">CONFERMA</text>
+    <text x="50" y="106" fill="#9a9a9a" font-size="9" text-anchor="middle">R4 · intervento OK</text>
+  </g>
+  <g transform="translate(540,360)">
+    <rect width="100" height="120" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <circle cx="50" cy="38" r="7" fill="none" stroke="#ff3b3b" stroke-width="2.5"/>
+    <path d="M50 45 v10 M50 47 l-8 16 M50 47 l8 16 M50 49 l-7 13" stroke="#ff3b3b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <text x="50" y="92" fill="#ffffff" font-size="11" text-anchor="middle">PEDONE</text>
+    <text x="50" y="106" fill="#9a9a9a" font-size="9" text-anchor="middle">ostacolo classificato</text>
+  </g>
+
+  <text x="40" y="522" fill="#ff5e00" font-size="14" font-weight="bold" letter-spacing="2">OPERATORE E MEZZO</text>
+  <text x="40" y="540" fill="#6a6a6a" font-size="11">porte, banchina, sala di controllo, meteo</text>
+
+  <g transform="translate(60,556)">
+    <rect width="100" height="80" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <path d="M32 24 h36 v30 h-36z M50 54 v-6 M42 54 v-6" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="50" y="70" fill="#9a9a9a" font-size="10" text-anchor="middle">Porte</text>
+  </g>
+  <g transform="translate(180,556)">
+    <rect width="100" height="80" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <path d="M30 52 h40 M34 52 v-14 a16 16 0 0 1 32 0 v14" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M42 44 l4-8 4 8" stroke="#ffffff" stroke-width="2" fill="none"/>
+    <text x="50" y="70" fill="#9a9a9a" font-size="10" text-anchor="middle">Banchina</text>
+  </g>
+  <g transform="translate(300,556)">
+    <rect width="100" height="80" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <path d="M28 48 h10 a6 6 0 0 0 12 0 h10 M28 44 a10 10 0 0 1 10 -10 h6 l-2 10 M46 34 l-2 10" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M34 28 v-6 a8 8 0 0 1 16 0 v6" stroke="#ffffff" stroke-width="2.5" fill="none"/>
+    <text x="50" y="70" fill="#9a9a9a" font-size="10" text-anchor="middle">Sala controllo</text>
+  </g>
+  <g transform="translate(420,556)">
+    <rect width="100" height="80" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <path d="M34 30 a5 5 0 0 1 10 -4 a5 5 0 0 1 10 4" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M30 38 l-6 12 M34 40 l-4 12 M66 40 l4 12 M70 38 l6 12" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <text x="50" y="70" fill="#9a9a9a" font-size="10" text-anchor="middle">Pioggia</text>
+  </g>
+  <g transform="translate(540,556)">
+    <rect width="100" height="80" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <path d="M30 50 h8 M38 44 l4 -8 4 16 3 -8 M56 50 h6" stroke="#ff5e00" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="50" y="70" fill="#9a9a9a" font-size="10" text-anchor="middle">Avviso vocale</text>
+  </g>
+  <g transform="translate(660,556)">
+    <rect width="100" height="80" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <path d="M34 40 h32 v14 h-32z M50 54 v6 M42 60 h16" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="50" y="70" fill="#9a9a9a" font-size="10" text-anchor="middle">Energia / freni</text>
+  </g>
+
+  <g transform="translate(800,160)">
+    <rect width="340" height="476" rx="10" fill="#141414" stroke="#2a2a2a"/>
+    <text x="20" y="40" fill="#ffffff" font-size="15" font-weight="bold">Principi del kit</text>
+    <text x="20" y="66" fill="#9a9a9a" font-size="12">
+      <tspan x="20" dy="0">1 · Griglia 48px, tratto 2.5px, terminali arrotondati</tspan>
+      <tspan x="20" dy="22">2 · Una sola forma metaforica per concetto</tspan>
+      <tspan x="20" dy="22">3 · Colore = stato, forma = oggetto:</tspan>
+      <tspan x="20" dy="22">   mai usare il colore da solo (R3)</tspan>
+      <tspan x="20" dy="34">4 · Bianco: azione del conducente</tspan>
+      <tspan x="20" dy="22">   Arancione: automazione (GoA2)</tspan>
+      <tspan x="20" dy="22">   Verde: OK · Ambra: rischio · Rosso: pericolo</tspan>
+      <tspan x="20" dy="34">5 · Pedone/ostacolo sempre in rosso:</tspan>
+      <tspan x="20" dy="22">   è l'urgenza massima dello scenario 02</tspan>
+      <tspan x="20" dy="34">6 · Riconoscibilità a colpo d'occhio:</tspan>
+      <tspan x="20" dy="22">   test a distanza di un metro</tspan>
+    </text>
+    <text x="20" y="330" fill="#ffffff" font-size="15" font-weight="bold">Da sviluppare</text>
+    <text x="20" y="356" fill="#9a9a9a" font-size="12">
+      <tspan x="20" dy="0">· Icone fermate / mappa linea</tspan>
+      <tspan x="20" dy="22">· Icone passeggeri (assistenza, emergenza)</tspan>
+      <tspan x="20" dy="22">· Varianti piccolo formato (barra stato)</tspan>
+      <tspan x="20" dy="22">· Versione outline monocolore per stampa</tspan>
+      <tspan x="20" dy="22">· Naming e asset export per Figma</tspan>
+    </text>
+  </g>
+</svg>
