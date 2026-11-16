@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" font-family="Helvetica Neue, Arial, sans-serif">
+  <rect width="1920" height="1080" fill="#0a0a0a"/>
+
+  <!-- FASCIA 1 · BARRA DI CONTROLLO (R1) -->
+  <rect x="0" y="0" width="1920" height="140" fill="#141414"/>
+  <rect x="0" y="140" width="1920" height="4" fill="#ff5e00"/>
+  <text x="70" y="46" fill="#9a9a9a" font-size="20" letter-spacing="3">MODALITÀ ATTIVA</text>
+  <rect x="70" y="62" width="270" height="62" rx="12" fill="#ff5e00"/>
+  <text x="205" y="103" text-anchor="middle" fill="#000000" font-size="28" font-weight="bold">AUTO · GoA2</text>
+  <text x="960" y="46" text-anchor="middle" fill="#9a9a9a" font-size="20" letter-spacing="3">CHI HA IL CONTROLLO</text>
+  <text x="960" y="102" text-anchor="middle" fill="#ff5e00" font-size="46" font-weight="bold">SISTEMA</text>
+  <text x="1850" y="46" text-anchor="end" fill="#9a9a9a" font-size="20" letter-spacing="3">SENSORI</text>
+  <circle cx="1610" cy="98" r="27" fill="none" stroke="#3ddc84" stroke-width="3"/>
+  <circle cx="1610" cy="98" r="9" fill="none" stroke="#3ddc84" stroke-width="3"/>
+  <circle cx="1690" cy="98" r="27" fill="none" stroke="#3ddc84" stroke-width="3"/>
+  <path d="M1690 88 v20 M1680 98 h20" stroke="#3ddc84" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="1770" cy="98" r="27" fill="none" stroke="#3ddc84" stroke-width="3"/>
+  <path d="M1756 98 h8 l5 -9 6 18 5 -9 h10" fill="none" stroke="#3ddc84" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- FASCIA 2 · ZONA CONTESTO (R2, R3) -->
+  <path d="M0 560 C 300 560, 350 420, 600 420 S 1000 560, 1250 560 L 1500 560" fill="none" stroke="#2a2a2a" stroke-width="46"/>
+  <path d="M0 560 C 300 560, 350 420, 600 420 S 1000 560, 1250 560 L 1500 560" fill="none" stroke="#3a3a3a" stroke-width="3" stroke-dasharray="12 10"/>
+  <circle cx="1200" cy="497" r="9" fill="#3ddc84"/>
+  <circle cx="1200" cy="497" r="22" fill="none" stroke="#3ddc84" stroke-opacity="0.4" stroke-width="10"/>
+  <text x="1200" y="556" text-anchor="middle" fill="#9a9a9a" font-size="24">Valfonda · Stazione SMN</text>
+  <rect x="330" y="490" width="90" height="34" rx="10" fill="#1c1c1c" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="338" y="498" width="18" height="18" rx="4" fill="#3ddc84"/>
+  <text x="432" y="514" fill="#9a9a9a" font-size="18">Vettura 14</text>
+  <text x="40" y="850" fill="#6a6a6a" font-size="20">Vista linea · ostacoli classificati per tipo</text>
+
+  <!-- avvisi gerarchici -->
+  <rect x="40" y="180" width="620" height="92" rx="14" fill="#1c1c1c"/>
+  <rect x="40" y="180" width="8" height="92" rx="4" fill="#3ddc84"/>
+  <circle cx="90" cy="226" r="20" fill="none" stroke="#3ddc84" stroke-width="3"/>
+  <path d="M80 226 h20 M90 216 v20" stroke="#3ddc84" stroke-width="3" stroke-linecap="round"/>
+  <text x="130" y="218" fill="#ffffff" font-size="26" font-weight="bold">Servizio regolare</text>
+  <text x="130" y="252" fill="#9a9a9a" font-size="22">Orario rispettato · prossima fermata tra 1 min</text>
+
+  <rect x="40" y="288" width="620" height="92" rx="14" fill="#1c1c1c"/>
+  <rect x="40" y="288" width="8" height="92" rx="4" fill="#3ddc84"/>
+  <circle cx="90" cy="334" r="20" fill="none" stroke="#3ddc84" stroke-width="3"/>
+  <path d="M82 340 h16 M90 326 v10" stroke="#3ddc84" stroke-width="3" stroke-linecap="round"/>
+  <text x="130" y="326" fill="#ffffff" font-size="26" font-weight="bold">Banchina libera</text>
+  <text x="130" y="360" fill="#9a9a9a" font-size="22">Previsione affollamento medio a SMN</text>
+
+  <rect x="40" y="396" width="620" height="92" rx="14" fill="#1c1c1c"/>
+  <rect x="40" y="396" width="8" height="92" rx="4" fill="#ffb020"/>
+  <circle cx="90" cy="442" r="20" fill="none" stroke="#ffb020" stroke-width="3"/>
+  <path d="M90 432 v9 M90 448 v3" stroke="#ffb020" stroke-width="3" stroke-linecap="round"/>
+  <text x="130" y="434" fill="#ffb020" font-size="26" font-weight="bold">Affollamento in aumento a SMN</text>
+  <text x="130" y="468" fill="#9a9a9a" font-size="22">Fermata con sosta prolungata prevista</text>
+
+  <!-- pannello destro -->
+  <rect x="1500" y="144" width="420" height="736" fill="#141414"/>
+  <line x1="1500" y1="144" x2="1500" y2="880" stroke="#2a2a2a" stroke-width="2"/>
+  <text x="1710" y="250" text-anchor="middle" fill="#9a9a9a" font-size="22" letter-spacing="3">VELOCITÀ</text>
+  <text x="1710" y="408" text-anchor="middle" fill="#ffffff" font-size="150" font-weight="bold">38</text>
+  <text x="1710" y="462" text-anchor="middle" fill="#9a9a9a" font-size="34">km/h</text>
+  <text x="1710" y="512" text-anchor="middle" fill="#ff5e00" font-size="26" font-weight="bold">LIMITE 50 KM/H</text>
+  <line x1="1560" y1="548" x2="1860" y2="548" stroke="#2a2a2a" stroke-width="2"/>
+  <text x="1710" y="596" text-anchor="middle" fill="#9a9a9a" font-size="20" letter-spacing="3">PROSSIMA FERMATA</text>
+  <text x="1710" y="644" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="bold">Valfonda</text>
+  <text x="1710" y="686" text-anchor="middle" fill="#ffffff" font-size="28">Stazione SMN</text>
+  <text x="1710" y="734" text-anchor="middle" fill="#ff5e00" font-size="28" font-weight="bold">1 min 20 s</text>
+  <circle cx="1620" cy="800" r="9" fill="#3ddc84"/>
+  <text x="1640" y="808" fill="#9a9a9a" font-size="24">Porte chiuse · OK</text>
+
+  <!-- FASCIA 3 · RIQUADRO OPERATORE (R4, R5) -->
+  <rect x="0" y="880" width="1920" height="200" fill="#141414"/>
+  <line x1="0" y1="880" x2="1920" y2="880" stroke="#2a2a2a" stroke-width="2"/>
+  <text x="70" y="946" fill="#9a9a9a" font-size="18" letter-spacing="3">COSA STA FACENDO</text>
+  <text x="70" y="990" fill="#ff5e00" font-size="30" font-weight="bold">Marcia automatica verso SMN</text>
+  <text x="620" y="946" fill="#9a9a9a" font-size="18" letter-spacing="3">PROSSIMA AZIONE</text>
+  <text x="620" y="990" fill="#ffffff" font-size="30" font-weight="bold">Arresto programmato in banchina</text>
+  <text x="1170" y="946" fill="#9a9a9a" font-size="18" letter-spacing="3">FUNZIONI ATTIVE</text>
+  <text x="1170" y="990" fill="#3ddc84" font-size="30" font-weight="bold">Tutte operative</text>
+  <text x="1500" y="918" fill="#9a9a9a" font-size="18" letter-spacing="3">RICHIESTE ALL'OPERATORE</text>
+  <rect x="1500" y="932" width="380" height="62" rx="14" fill="#1c1c1c" stroke="#2a2a2a" stroke-width="2"/>
+  <text x="1690" y="971" text-anchor="middle" fill="#ffffff" font-size="24">Apri canale sala di controllo</text>
+  <rect x="1500" y="1006" width="380" height="62" rx="14" fill="#ff5e00"/>
+  <text x="1690" y="1045" text-anchor="middle" fill="#000000" font-size="24" font-weight="bold">Nessuna azione richiesta</text>
+  <text x="70" y="1045" fill="#6a6a6a" font-size="18">FOCUS RAIL · GOA2 · SCENARIO 01 · ROUTINE</text>
+</svg>
